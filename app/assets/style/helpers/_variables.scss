@@ -1,0 +1,94 @@
+
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1024px,
+  xxl: 1400px
+) !default;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+) !default;
+
+/* color */
+
+$primary: #00807e;
+$secondary:#64C3BF;
+$light:#FAFAFA;
+$dark:#DEE2E6;
+$border-color:  #007572;
+$body-color:#818A91;
+
+
+
+$theme-colors: () !default;
+$theme-colors: map-merge(
+  (
+    'primary':$primary,
+    'secondary':$secondary,
+    'light':$light,
+    'dark':$dark,
+    'extra':#F7F7F7,
+    'gray':#CED4DA,
+    "black":  #212529,
+  
+  ),
+  $theme-colors
+);
+
+/*  font-size */
+$font-size-base: 1rem;
+$font-size: () !default;
+$font-size: map-merge(
+  (
+    'sm': ($font-size-base *0.875),
+    'base': $font-size-base,
+    'lg': ($font-size-base * 1.25),
+    'xl' :($font-size-base * 1.5),
+    '2xl': ($font-size-base * 2),
+   
+  ),
+  $font-size
+);
+
+/*font */
+
+$font-family-sans-serif:'Noto Sans TC', sans-serif;
+
+
+
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer / 4,
+  2: $spacer / 2,
+  3: $spacer,
+  4: $spacer * 1.25,
+  5: $spacer *1.5,
+  6: $spacer * 2,
+  7: $spacer * 2.25,
+  8: $spacer * 2.5,
+  9:$spacer *3.75,
+  10:$spacer * 5,
+  11:$spacer * 6.25,
+  12:$spacer * 7.5,
+
+) !default;
+
+$grid-gutter-width: 1.5rem;
+$gutters: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 1.875,
+);
+
+$border-radius-lg: 12px !default;

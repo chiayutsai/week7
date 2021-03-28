@@ -1,0 +1,79 @@
+.card{
+    border-radius: 4px;
+    border:1px solid #DEE2E6;
+    box-shadow:  0 3px 6px #00000029;
+    flex-direction: column;
+    display: flex;
+   
+    background-color: #fff;
+    height: 100%;
+}
+.card__head{ 
+    position: relative;
+  
+}
+.card__img{
+    height: 180px;
+    width: 100%;
+    border-radius: 4px 4px 0 0;
+}
+
+.card__city{
+    position: absolute;
+    background-color: $secondary;
+    font-size: 20px;
+    color:#fff;
+    padding: 8px 20px;
+    top:-15px;
+    border-radius: 0 5px 5px 0;
+}
+.card__score{
+    position: absolute;
+    background-color: $primary;
+    min-width: 40px;
+    text-align: center;
+    color:#fff;
+    padding: 5px 8px;
+    border-radius: 0 5px 5px 0;
+    bottom:-16px;
+}
+.card__body{
+    padding: 20px 20px 14px 20px;
+   height: calc(100% - 180px);
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+.card__title{
+    color:$primary;
+    font-size: 24px;
+    padding-bottom: 4px;
+    border-bottom: 2px solid $primary;
+    margin-bottom: 16px;
+}
+.card__text{
+    line-height: 1.5;
+    margin-bottom: 22px;
+}
+.card__footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card__num{
+    color:$primary;
+    font-weight: 500;
+    span{
+        padding-right: 6px;
+    }
+}
+.card__price{
+    display: flex;
+    align-items: center;
+    color:$primary;
+    font-weight: 500; 
+    span{
+        font-size: 32px;
+        padding-left: 4px;
+    }
+}

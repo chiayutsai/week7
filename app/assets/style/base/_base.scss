@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Roboto:wght@400;500;700;900&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+ol,ul{
+    padding: 0;
+    margin-bottom:0 !important;
+    list-style: none;
+}
+li{
+    padding: 0;
+
+    list-style: none;
+}
+p{
+    margin-bottom: 0;
+}
+input:focus::placeholder{
+    opacity: 0;
+}
+.material-icons{
+    vertical-align: text-bottom;
+}
+a{
+    display: block;
+    transition: all 0.5s;
+}
+.material-icons{
+    font-size: 20px;
+    vertical-align: sub;
+}
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    object-fit:cover;
+}
+textarea:focus{
+    &::placeholder{
+        opacity: 0;
+    }
+}

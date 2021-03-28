@@ -1,0 +1,16 @@
+@import'./helpers/variables';
+
+@import '../../../node_modules/bootstrap/scss/bootstrap-grid.scss';
+@import '../../../node_modules/bootstrap/scss/bootstrap-reboot.scss';
+@import '../../../node_modules/bootstrap/scss/bootstrap-utilities.scss';
+@import 'base/base';
+
+
+
+
+@import './helpers/text';
+
+@import './component/card';
+@import './component/form';
+@import './component/chart';
+@import '../../../node_modules/bootstrap/scss/buttons'
